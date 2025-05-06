@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Transparent background -->
+  <rect width="32" height="32" fill="none"/>
+
+  <!-- Abstract waves (ocean blue) -->
+  <path d="M4 20 Q12 16 16 20 T28 20" fill="none" stroke="#0288D1" stroke-width="2" stroke-linecap="round"/>
+  <path d="M4 24 Q12 20 16 24 T28 24" fill="none" stroke="#0288D1" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Wave highlight (light gray) -->
+  <path d="M12 20 Q14 18 16 20" fill="none" stroke="#B0BEC5" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Buoy (white body, light gray antenna) -->
+  <circle cx="16" cy="12" r="3" fill="#FFFFFF" stroke="#0288D1" stroke-width="1"/>
+  <line x1="16" y1="9" x2="16" y2="7" stroke="#B0BEC5" stroke-width="2" stroke-linecap="round"/>
+</svg>

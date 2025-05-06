@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IoT Sensor Data</title>
+  <link rel="icon" type="image/svg+xml" href="Images/favicon.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  
+  <video autoplay muted loop id="background-video">
+    <source src="Images/12467318-uhd_3840_2160_24fps.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  
+  <h3>IoT Based Sea Weather And Pollution Tracker</h3>
+  
+  <div class="sensor-data" id="sensorData">
+    <p>Humidity: <span id="humidity">--</span>%</p>
+    <p>Temp: <span id="tempC">--</span>°C</p>
+    <p>Accel X: <span id="accelX">--</span> m/s²</p>
+    <p>Accel Y: <span id="accelY">--</span> m/s²</p>
+    <p>Accel Z: <span id="accelZ">--</span> m/s²</p>
+    <p>Turbidity: <span id="turbidity">--</span>%</p>
+    <p>pH: <span id="pH">--</span></p>
+  </div>
+  <footer>
+    <a href="https://github.com/mobizt/Firebase-ESP-Client" target="_blank">
+      <i class="fab fa-github"></i> Project Code on GitHub
+    </a>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-database-compat.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
