@@ -128,7 +128,7 @@ footer {
     padding: 15px 0;
     /* margin-top: auto; Pushes footer to bottom */
     width: 100%;
-    border-top: 2px solid #444d56; /* Subtle border */
+    /* border-top: 2px solid #444d56; Subtle border */
   }
   
   footer a {
